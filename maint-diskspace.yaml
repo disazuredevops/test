@@ -1,6 +1,6 @@
 ---
 - name: check disk space
-  hosts: "{{Ubuntu server 2}}"
+  hosts: Ubuntu server 2
   tasks:
     - name: get disk usage
       command: df -h
