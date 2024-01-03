@@ -1,6 +1,6 @@
 ---
 - name: check disk space
-  hosts: "192.168.101.*"
+  hosts: Dockerserver2
   tasks:
     - name: get disk usage
       command: df -h
